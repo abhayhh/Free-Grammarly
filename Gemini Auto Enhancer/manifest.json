@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini AI Corrector (with On/Off)",
+  "version": "5.0",
+  "description": "Automatically corrects and enhances your writing on any website.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "all_frames": true
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
