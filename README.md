@@ -15,3 +15,5 @@
 
 1.  Potential for Overly Rapid Correction: Corrections may occur before the user has finished composing a sentence.
 2.  Incompatibility with WhatsApp
+
+<img width="469" height="401" alt="image" src="https://github.com/user-attachments/assets/c6b5f1b2-bec9-4fdb-9ac9-41017b7e0d9f" />
