@@ -1,8 +1,17 @@
-Grammarly, but better—a free extension tool that you can use with your free Gemini API key.
-
 ## Features
 
-1.  On/Off button
-2.  High speed
-3.  Enables real-time correction; no button clicks required. Automatically fixes errors and improves sentences as you type.
-4.  Corrects errors you might not even notice.
+1.  On/Off Toggle
+2.  High Speed
+3.  Real-time Correction: Automatically corrects errors and improves sentences as you type, eliminating the need for button clicks.
+4.  Discreet Error Correction: Identifies and corrects subtle errors.
+
+## Usage
+
+1.  Enter your Gemini API key and enable the extension.
+2.  The extension will automatically detect text boxes.
+3.  After a two-second pause in typing, the text box will highlight in orange, indicating correction is in progress. Upon completion, the box will turn green, and the text will be corrected.
+
+## Considerations
+
+1.  Potential for Overly Rapid Correction: Corrections may occur before the user has finished composing a sentence.
+2.  Incompatibility with WhatsApp
